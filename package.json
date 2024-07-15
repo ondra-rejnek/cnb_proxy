@@ -11,7 +11,6 @@
     "request": "^2.88.2"
   },
   "scripts": {
-    "start": "node functions/index.js",
-    "build": "echo 'Nothing to build'"
+    "start": "node index.js"
   }
 }

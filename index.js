@@ -1,6 +1,5 @@
 import express from "express";
 import request from "request";
-import serverless from "serverless-http";
 
 const app = express();
 const API_URL =
@@ -19,5 +18,3 @@ app.get("/api", (_req, res) => {
 
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => console.log(`listening on ${PORT}`));
-
-export default serverless(app);
